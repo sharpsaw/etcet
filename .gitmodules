@@ -1,0 +1,3 @@
+[submodule "tolearn/vim-space"]
+	path = tolearn/vim-space
+	url = https://github.com/spiiph/vim-space
