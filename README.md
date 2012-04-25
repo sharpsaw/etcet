@@ -146,6 +146,8 @@ and easily overlay his personalizations.
 
 - ["scp1"](https://github.com/trapd00r/configs) - More.
 
+- [dotfiles.org](http://dotfiles.org/) - Sprawling collection of config files.
+
 - [rking](https://github.com/ryanjosephking/config) - My old attempt. Is not
   much more than a git repo with symlinking.
 
