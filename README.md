@@ -146,6 +146,10 @@ and easily overlay his personalizations.
 
 - ["scp1"](https://github.com/trapd00r/configs) - More.
 
+- [Spaceghost](https://github.com/Spaceghost/config) - More ideas - especially
+  how it interactively prompts for github info on the first run. Probably good
+  pattern in general. (zsh itself has an interactive "first time" setup.)
+
 - [dotfiles.org](http://dotfiles.org/) - Sprawling collection of config files.
 
 - [rking](https://github.com/ryanjosephking/config) - My old attempt. Is not
