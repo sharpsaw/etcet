@@ -152,6 +152,10 @@ and easily overlay his personalizations.
 
 - [dotfiles.org](http://dotfiles.org/) - Sprawling collection of config files.
 
+- [carlosedp/vimfiles](https://github.com/carlosedp/vimfiles) - JS/Node/Ruby/etc vim files
+
+- [epitron](https://github.com/epitron/scripts) - A lot of little bits.
+
 - [rking](https://github.com/ryanjosephking/config) - My old attempt. Is not
   much more than a git repo with symlinking.
 
