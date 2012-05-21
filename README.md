@@ -152,12 +152,16 @@ and easily overlay his personalizations.
 
 - [dotfiles.org](http://dotfiles.org/) - Sprawling collection of config files.
 
-- [carlosedp/vimfiles](https://github.com/carlosedp/vimfiles) - JS/Node/Ruby/etc vim files
-
 - [epitron](https://github.com/epitron/scripts) - A lot of little bits.
 
 - [rking](https://github.com/ryanjosephking/config) - My old attempt. Is not
   much more than a git repo with symlinking.
+
+Vim in particular:
+
+- [spf13](https://github.com/spf13/spf13-vim/blob/master/.vimrc) - Claims to be the Ultimate Vimrc, has some good ideas.
+
+- [carlosedp/vimfiles](https://github.com/carlosedp/vimfiles) - JS/Node/Ruby/etc vim files
 
 The Next Level
 --------------
