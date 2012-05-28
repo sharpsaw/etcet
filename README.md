@@ -115,15 +115,37 @@ But in all of this, remember that the system will allow you to maintain
 control. Your config will still be your config, because you can pick and
 choose cets, and because your user cets are always the top priority.
 
-The Input
-----------
+The Next Level
+--------------
 
-Many people are working on this idea. I don't know if I'll simply
-convert to one of their systems, or subsume it and take it further. The
-"once-and-for all" part means that whatever solution I come up with, it
-should be good enough that the next guy doesn't have to make this
-decision - it will be modular enough that he can start from the solution
-and easily overlay his personalizations.
+A web-based system will be useful. For individual config files, this is along
+the right lines: http://www.muttrcbuilder.org/page
+
+I am also developing some skills in the area of mobile app dev, so if you have
+an idea of how to streamline your computing that could involve some mobile
+solution, let's talk about it.
+
+...more to come.
+
+The `...` Implementation
+--------------------------
+
+See:
+http://github.com/ingydotnet/rkingy-dots#readme
+
+It's far from perfect, but it's a concrete start to what is described here.
+
+It turns out that we don't actually need a piece of software to do this, it's
+merely a set of conventions. Basically,
+[...](https://github.com/ingydotnet/....git) is a good installer (can do
+hardlinks/symlinks, can overlay many different config dirs, and so forth).
+Between upstreaming ideas into `...` or adding new repos, pretty much we have
+a realization of the goals.
+
+... Alternatives
+----------------
+
+You could do the same thing but with a different installer. Here are some other projects:
 
 - [vcsh](https://github.com/RichiH/vcsh) - From my brief scan, this looks like
   a good start.
@@ -137,40 +159,6 @@ and easily overlay his personalizations.
 - [dewi](https://github.com/ft/dewi) - ft's cool system that is sort of like
   using ExtUtils::MakeMaker in a Makefile.PL
     - [ft's configs](https://dev.0x50.de/projects/ftdotfiles666) - based on dewi.
-
-- [...](https://github.com/ingydotnet/....git) - ingy's implementation of this
-  idea. The final solution will be able to use ... as a cet.
-
 - [briefcase](htttp://jim.github.com/briefcase) - Another one I haven't really
   looked at.
 
-- ["scp1"](https://github.com/trapd00r/configs) - More.
-
-- [Spaceghost](https://github.com/Spaceghost/config) - More ideas - especially
-  how it interactively prompts for github info on the first run. Probably good
-  pattern in general. (zsh itself has an interactive "first time" setup.)
-
-- [dotfiles.org](http://dotfiles.org/) - Sprawling collection of config files.
-
-- [epitron](https://github.com/epitron/scripts) - A lot of little bits.
-
-- [rking](https://github.com/ryanjosephking/config) - My old attempt. Is not
-  much more than a git repo with symlinking.
-
-Vim in particular:
-
-- [spf13](https://github.com/spf13/spf13-vim/blob/master/.vimrc) - Claims to be the Ultimate Vimrc, has some good ideas.
-
-- [carlosedp/vimfiles](https://github.com/carlosedp/vimfiles) - JS/Node/Ruby/etc vim files
-
-The Next Level
---------------
-
-A web-based system will be useful. For individual config files, this is along
-the right lines: http://www.muttrcbuilder.org/page
-
-I am also developing some skills in the area of mobile app dev, so if you have
-an idea of how to streamline your computing that could involve some mobile
-solution, let's talk about it.
-
-...more to come.
