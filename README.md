@@ -158,7 +158,10 @@ You could do the same thing but with a different installer. Here are some other 
 
 - [dewi](https://github.com/ft/dewi) - ft's cool system that is sort of like
   using ExtUtils::MakeMaker in a Makefile.PL
-    - [ft's configs](https://dev.0x50.de/projects/ftdotfiles666) - based on dewi.
+
+- [ft's configs](https://dev.0x50.de/projects/ftdotfiles666) - based on dewi.
+
 - [briefcase](htttp://jim.github.com/briefcase) - Another one I haven't really
   looked at.
 
+- [mpapis's smf](https://github.com/sm/sm) - An excitingly abstract system.
