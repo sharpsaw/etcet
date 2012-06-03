@@ -24,3 +24,7 @@ Vim in particular:
 
 - [carlosedp/vimfiles](https://github.com/carlosedp/vimfiles) - JS/Node/Ruby/etc vim files
 
+bins:
+-----
+
+- https://github.com/moetunes/bin
