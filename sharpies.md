@@ -17,12 +17,16 @@ so I can get the state of the art.)
 
 - [dotfiles.org](http://dotfiles.org/) - Sprawling collection of config files.
 
+- [dukeleto](http://github.com/leto/Util) - Cool hacker, but I haven't checked
+  his sharpness levels yet.
+
 Vim in particular:
 ------------------
 
 - [spf13](https://github.com/spf13/spf13-vim/blob/master/.vimrc) - Claims to be the Ultimate Vimrc, has some good ideas.
 
 - [carlosedp/vimfiles](https://github.com/carlosedp/vimfiles) - JS/Node/Ruby/etc vim files
+
 
 bins:
 -----

@@ -54,29 +54,21 @@ And maybe:
 The Use
 -------
 
-    # XXX - only an idea. This won't do much, currently:
-    git clone https://github.com/sharpsaw/etcet
-    etcet/bootstrap
+See:
+http://github.com/ouicode/rkingy-dots-conf
 
-This, ↑, will be all it takes to get a half-way decent config, starting with a
-Unix-like system (to include Cygwin) equipped with little beyond `git` and
-`perl`. 
+It's far from perfect, but it's a concrete start to what is described here.
 
-The first step will be some installation work, grabbing packages that can be
-depended on by later cets. I don't want to have to write shell scripts except
-in the full-powered `zsh`, and I don't want to have to write general scripts
-except in the full-elegance `ruby`. For a system that is more geared toward
-generality, being based on `bash` and `perl`, look to [Ingy's ...
-System](https://github.com/ingydotnet/....git).
+It turns out that we don't actually need a piece of software to do this, it's
+merely a set of conventions. Basically,
+[...](https://github.com/ingydotnet/....git) is a good installer (can do
+hardlinks/symlinks, can overlay many different config dirs, and so forth).
+Between upstreaming ideas into `...` or adding new repos, pretty much we have
+a realization of the goals.
 
-The "base system" will mostly be a simple set of management tools to automate
-config synchronization, package installation, and definitely: cet addition.
 
-The "preferred tools" configs will be set up based on the idea that being
-elite is worth the investment of learning. It's the Sharpsaw Philosophy
-itself. So, though the base system will not force anything on you other than a
-few commands in the $PATH, the tools config will do it somewhat. Here are some
-examples of how that plays out:
+The Values
+----------
 
 - Automated is better than manual. Of course. -- but there are layers to this.
   We need better tools to make tools (look at
@@ -115,6 +107,46 @@ But in all of this, remember that the system will allow you to maintain
 control. Your config will still be your config, because you can pick and
 choose cets, and because your user cets are always the top priority.
 
+Virtualization and Pair Programming
+-----------------------------------
+
+...is the future.  Let me back up a bit and I'll explain how so.
+
+Ingy döt Net and I have pair programmed for years. Often remotely. We have
+some things that work for us, but one thing that always _doesn't_ work is our
+initial setup. I'm never happy until I have my full set of vim bindings, shell
+aliases, helper tools, etc. Ingy always has 45 Perl modules he wants to get
+his stuff going. So the first few sessions we have are sunk in the "yak
+shaving" process.
+
+So, Ingy works for ActiveState, which has this Stackato product. It's a cloudy
+cloudish thing, but don't let that repulse you. The things you need to know
+about it are:
+
+- *It's very sandboxy.* Each "app" runs in an LXC container which is a fresh
+  Ubuntu install. You'll get no unexpected behavior as long as you're on the
+  same Stackato version as last time. Plus there are security benefits of
+  this: ingy doesn't need to give rking access to any of his personal boxes,
+  and vice-versa.
+- *It's location-independent.* Most cloud things rob you of ownership of the
+  processes, but with Stackato you can run on EC2 or your own laptop. In fact
+  Ingus made the "on the laptop" a
+  [one-liner](http://www.activestate.com/blog/2012/03/install-stackato-micro-cloud-one-command)
+  (Note that as of Summer 2012 the script only works on Ubuntu and OSX - but
+  it's pretty easy to twack to
+  work on other system that support either VirtualBox or vmplayer. I got it
+  going on Gentoo in under an hour, and it was my first time to run any of
+  that VBoxy type stuff).
+- *It's just Linux.* After you log in, you can largely forget that you're on
+  some weird system and use it however you'd use any box.
+
+I have to go do other stuff, but here's the punchline:
+
+Using the "Etcet" concept on the Stackato platform VMs allows us to spin up
+pair programming environments from zero to done in about 7 minutes.
+
+...more later.
+
 The Next Level
 --------------
 
@@ -124,23 +156,6 @@ the right lines: http://www.muttrcbuilder.org/page
 I am also developing some skills in the area of mobile app dev, so if you have
 an idea of how to streamline your computing that could involve some mobile
 solution, let's talk about it.
-
-...more to come.
-
-The `...` Implementation
---------------------------
-
-See:
-http://github.com/ingydotnet/rkingy-dots#readme
-
-It's far from perfect, but it's a concrete start to what is described here.
-
-It turns out that we don't actually need a piece of software to do this, it's
-merely a set of conventions. Basically,
-[...](https://github.com/ingydotnet/....git) is a good installer (can do
-hardlinks/symlinks, can overlay many different config dirs, and so forth).
-Between upstreaming ideas into `...` or adding new repos, pretty much we have
-a realization of the goals.
 
 ... Alternatives
 ----------------
