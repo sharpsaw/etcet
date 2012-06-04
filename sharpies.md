@@ -20,6 +20,8 @@ so I can get the state of the art.)
 - [dukeleto](http://github.com/leto/Util) - Cool hacker, but I haven't checked
   his sharpness levels yet.
 
+- [Mikachu](http://mika.l3ib.org/code/dot-zshrc) - Pretty cool guy on #zsh.
+
 Vim in particular:
 ------------------
 
