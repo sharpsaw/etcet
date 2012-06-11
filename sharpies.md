@@ -5,7 +5,8 @@ Sharpies List
 disecting every line at some point, maybe even set up a feed of their commits
 so I can get the state of the art.)
 
-- [rkingy-dots](https://github.com/ingydotnet/rkingy-dots) - Our first run at it.
+- [rkingy-dots-conf](https://github.com/ouicode/rkingy-dots-conf) - Our
+  current run at it.
 
 - ["scp1"](https://github.com/trapd00r/configs) - More.
 
@@ -29,6 +30,10 @@ Vim in particular:
 
 - [carlosedp/vimfiles](https://github.com/carlosedp/vimfiles) - JS/Node/Ruby/etc vim files
 
+Zsh in particular:
+------------------
+
+- [Zsh Wiki](http://zshwiki.org/home/)
 
 bins:
 -----
