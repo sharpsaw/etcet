@@ -54,18 +54,20 @@ And maybe:
 The Use
 -------
 
-See:
-http://github.com/ouicode/rkingy-dots-conf
+At this point, between [...](https://github.com/ingydotnet/....git) itself and
+the repos at http://github.com/sharpsaw/ , what I envisioned as "etcet" is
+basically a reality.
 
 It's far from perfect, but it's a concrete start to what is described here.
 
-It turns out that we don't actually need a piece of software to do this, it's
-merely a set of conventions. Basically,
-[...](https://github.com/ingydotnet/....git) is a good installer (can do
-hardlinks/symlinks, can overlay many different config dirs, and so forth).
-Between upstreaming ideas into `...` or adding new repos, pretty much we have
-a realization of the goals.
+When I'm on a new machine, I simply do:
 
+    curl sharpsaw.org/init | sh
+
+And away it goes. (See [the init script](http://sharpsaw.org/init) and [the
+... config it downloads](http://sharpsaw.org/dots-conf) to understand how to
+put together a similar solution. Also, if you want a handy sharpsaw.org URL so
+you can do the same, just let me know.)
 
 The Values
 ----------
