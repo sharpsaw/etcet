@@ -8,6 +8,9 @@ so I can get the state of the art.)
 - [rkingy-dots-conf](https://github.com/ouicode/rkingy-dots-conf) - Our
   current run at it.
 
+- [Frank Terbeck](https://dev.0x50.de/projects/ftzsh) - Super detailed config.
+  Only downside is the heavy focus on working for many versions of zsh.
+
 - ["scp1"](https://github.com/trapd00r/configs) - More.
 
 - [Spaceghost](https://github.com/Spaceghost/config) - More ideas - especially
