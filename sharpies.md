@@ -18,8 +18,8 @@ so I can get the state of the art.)
 
 - [dotfiles.org](http://dotfiles.org/) - Sprawling collection of config files.
 
-- [Mon Ouie](https://github.com/Mon-Ouie/dotfiles) - Kid prodigy and also
-  his dotfiles taught be about the zsh-syntax-highlighting repo.
+- [Mon Ouie](https://github.com/Mon-Ouie/dotfiles) - The Rimbaud of Ruby, and
+  also his dotfiles taught be about the zsh-syntax-highlighting repo.
 
 - [dukeleto](http://github.com/leto/Util) - Cool hacker, but I haven't checked
   his sharpness levels yet.
