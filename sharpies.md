@@ -13,6 +13,8 @@ so I can get the state of the art.)
 
 - ["scp1"](https://github.com/trapd00r/configs) - More.
 
+- [ccxCZ](http://wpr.cz/ccx/wobsite/projects.html) - Really progressive stuff, esp. tmux-related.
+
 - [Spaceghost](https://github.com/Spaceghost/config) - More ideas - especially
   how it interactively prompts for github info on the first run. Probably good
   pattern in general. (zsh itself has an interactive "first time" setup.)
