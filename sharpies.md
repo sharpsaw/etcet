@@ -5,8 +5,9 @@ Sharpies List
 disecting every line at some point, maybe even set up a feed of their commits
 so I can get the state of the art.)
 
-- [rkingy-dots-conf](https://github.com/ouicode/rkingy-dots-conf) - Our
-  current run at it.
+- [Sharpsaw](http://sharpsaw.org/init) - The current run at it.
+
+- [Github Dots](http://dotfiles.github.com/) - Several good links.
 
 - [Frank Terbeck](https://dev.0x50.de/projects/ftzsh) - Super detailed config.
   Only downside is the heavy focus on working for many versions of zsh.
